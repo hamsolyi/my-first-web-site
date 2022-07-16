@@ -1,0 +1,10 @@
+@charset "UTF-8";
+html,body { height: 100%; } /*쌤이 추가해주심 */
+body {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: #aaa;
+  background-image: url('../img/butterfly.png'), url('../img/mountain.03.png'), url('../img/sky.02.jpg');
+  background-size: 50%, 100%, cover;
+  background-repeat: no-repeat, no-repeat, repeat-y;
+  background-position: right top, center bottom, center top;
+}
